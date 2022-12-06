@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Form Validation in javascript </title>
+
+  <link href="validate.css" href "stylesheet"> <!-- link this type or down type-->  
+ <!-- <link rel="stylesheet" href="validate.css"> -->
+
+</head>
+
+ <body>  
+
+  <form action="submit.html" method="post" class="simpleform" onsubmit="return validateForm()">
+  
+ 
+    <h1>Login Page </h1>
+	
+	
+	Fast Name:<input type="text" id="fname" placeholder="Enter Fast Name"> 
+	
+	<p class="error"> </p>
+	
+	
+	Last Name:<input type="text" id="lname" placeholder="Enter Last Name">
+    <p class="error"> </p>
+	
+	
+	User Id:<input type="text"  id="userid" placeholder="Enter User Id"> 
+	
+     <p class="error"> </p>
+   
+     Password:<input type="text"  id="password" placeholder="Enter password">
+
+	  <p class="error"> </p>
+	 
+    <button type="submit" > Register </button>
+	
+</form>
+    
+	<script src="validate.js"> </script>
+	
+</body>
+</html>
